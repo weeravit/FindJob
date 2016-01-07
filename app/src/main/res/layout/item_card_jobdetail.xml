@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="2sp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Notice"
+                android:textSize="16sp" />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notice"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Salary"
+                android:textSize="14sp" />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/salary"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Company"
+                android:textSize="14sp" />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/company"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Address"
+                android:textSize="14sp" />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/datetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address"
+                android:layout_toRightOf="@+id/thumbnail"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Datetime"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

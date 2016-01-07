@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.weeravit_it.findjob.findjob.fragment.ResumeFragment">
+    <item
+        android:id="@+id/action_add"
+        android:title="@string/resume.menu.add"
+        android:icon="@drawable/ic_add_white_48dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

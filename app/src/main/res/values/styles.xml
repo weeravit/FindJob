@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/deep_purple_500</item>
+        <item name="colorPrimary">@color/deep_purple_a200</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/deep_purple_500</item>
+        <item name="colorPrimary">@color/deep_purple_a200</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimaryDark">@color/deep_purple_500</item>
+        <item name="colorPrimary">@color/deep_purple_a200</item>
+        <item name="colorAccent">@color/teal_500</item>
+    </style>
+
+    <style name="Text.JobDetail" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text.smallSize</item>
+    </style>
+
+    <style name="TextInput.Custom.Normal" parent="TextAppearance.AppCompat">
+        <!-- State Non-Focus color -->
+        <item name="colorControlNormal">@color/teal_500</item>
+        <!-- State Focus color-->
+        <item name="colorControlActivated">@color/teal_500</item>
+        <!-- Hint & Floating color -->
+        <item name="android:textColorHint">@color/teal_500</item>
+    </style>
+
+    <style name="TextInput.Custom.Error" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/red_500</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

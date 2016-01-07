@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">FindJob</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <string name="skip">Skip</string>
+
+    <string name="fullname">Fullname</string>
+    <string name="email">*Email</string>
+    <string name="password">*Password</string>
+    <string name="confirm_password">*Confirm Password</string>
+    <string name="telephone_number">*Telephone Number</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+
+    <!-- Status -->
+    <string name="status.success">success</string>
+    <string name="status.fail">fail</string>
+
+    <!-- Load More -->
+    <string name="loading">Loading</string>
+
+    <string name="address">Addr</string>
+    <string name="company">Corp</string>
+    <string name="salary">Salary</string>
+    <string name="datetime">Date</string>
+    <string name="distance">Distance</string>
+    <string name="distance.km">km</string>
+
+    <string name="search.notice">Notice</string>
+    <string name="job">Job</string>
+    <string name="jobcategory">Job Category</string>
+    <string name="place">Place</string>
+    <string name="search">Search</string>
+
+    <string name="typing_search">typing search..</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="resume">Resume</string>
+    <string name="navigator">Navigator</string>
+    <string name="navigator.error">You don\'t installed Google Map</string>
+
+    <string name="notice">Notice</string>
+    <string name="description">Description</string>
+    <string name="qualification">Qualification</string>
+    <string name="welfare">Welfare</string>
+    <string name="province">Province</string>
+    <string name="district">District</string>
+    <string name="jobdetail.company">Company</string>
+    <string name="postby">Post by</string>
+
+    <string name="notice.with.icon">{fa-bullhorn} Notice</string>
+    <string name="job.with.icon">{fa-briefcase} Job</string>
+    <string name="description.with.icon">{fa-building} Description</string>
+    <string name="qualification.with.icon">{fa-thumbs-o-up} Qualification</string>
+    <string name="welfare.with.icon">{fa-star} Welfare</string>
+    <string name="salary.with.icon">{fa-money} Salary</string>
+    <string name="address.with.icon">{fa-map-marker} Address</string>
+    <string name="postby.with.icon">{fa-user} Post by</string>
+
+    <!-- Account -->
+    <string name="account.user.detail">View your profile</string>
+    <string name="account.user.icon">@string/font_user</string>
+    <string name="account.favorite.icon">@string/font_favorite</string>
+    <string name="account.history.icon">@string/font_history</string>
+    <string name="account.resume.icon">@string/font_resume</string>
+    <string name="account.logout.icon">@string/font_logout</string>
+    <string name="account.user">Profile</string>
+    <string name="account.favorite">Favorite</string>
+    <string name="account.history">History</string>
+    <string name="account.resume">Resume</string>
+    <string name="account.logout">Logout</string>
+    
+    <!-- Profile -->
+    <string name="profile.firstname">Firstname</string>
+    <string name="profile.lastname">Lastname</string>
+    <string name="profile.address">Address</string>
+    <string name="profile.age">Age</string>
+    <string name="profile.telephone">*Telephone No.</string>
+    <string name="profile.email">Email</string>
+    <string name="profile.password">*Password</string>
+    <string name="profile.btn.cancel">CANCEL</string>
+    <string name="profile.btn.ok">SAVE</string>
+    <string name="profile.value.no">--Not Value--</string>
+    <string name="profile.menu.edit">Edit</string>
+    <string name="profile.update.success">Update success.</string>
+    <string name="profile.update.fail">Update fail.</string>
+
+    <!-- Resume -->
+    <string name="resume.no">Resume No.</string>
+    <string name="resume.menu.add">Add</string>
+    <string name="resume.menu.edit">Edit</string>
+    <string name="resume.menu.delete">Delete</string>
+    <string name="resume.objective">Objective</string>
+    <string name="resume.experience">Experience</string>
+    <string name="resume.education">Education</string>
+    <string name="resume.skill">Skill</string>
+    <string name="resume.resumejob">Job</string>
+    <string name="resume.image.description">Tap to change your photo</string>
+    <string name="resume.resumejob.description">tap to select your jobs</string>
+    <string name="resume.add.success">Resume Added</string>
+    <string name="resume.edit.success">Resume Edited</string>
+    <string name="resume.delete.success">Resume Deleted</string>
+    <string name="resume.manage.fail">Resume Failed</string>
+    <string name="resume.dialog.title">Resume</string>
+    <string name="resume.dialog.content">Do you want to delete?</string>
+    <string name="resume.dialog.button.confirm">YES</string>
+    <string name="resume.dialog.button.cancel">NO</string>
+
+    <!-- ResumeJob -->
+    <string name="resumejob.text.selected">your selected jobs</string>
+    <string name="resumejob.text.noselect">you don\'t select job</string>
+
+    <!-- Send Resume -->
+    <string name="sendresume.menu.send">Send</string>
+    <string name="sendresume.send.empty">Please create your resume</string>
+    <string name="sendresume.send.nonselected">Please choose resume</string>
+    <string name="sendresume.send.success">Resume Sent</string>
+    <string name="sendresume.send.fail">Resume send fail</string>
+
+    <!-- Font Icon -->
+    <string name="font_home">{fa-home}</string>
+    <string name="font_feed">{fa-feed}</string>
+    <string name="font_location">{fa-map-marker}</string>
+    <string name="font_user">{fa-user}</string>
+    <string name="font_company">{fa-building}</string>
+    <string name="font_address">{fa-map-marker}</string>
+    <string name="font_salary">{fa-money}</string>
+    <string name="font_clock">{fa-clock-o}</string>
+    <string name="font_suggest">{fa-bullhorn}</string>
+    <string name="font_resume">{fa-file-text}</string>
+    <string name="font_favorite">{fa-heart}</string>
+    <string name="font_navigator">{fa-location-arrow}</string>
+    <string name="font_history">{fa-history}</string>
+    <string name="font_logout">{fa-sign-out}</string>
+    <string name="font_nav">{fa-bars}</string>
+
+    <string name="error.gps.null">Operator had not lat and lng</string>
+    <string name="login.fail">Login fail</string>
+    <string name="register.fail">This email had in system</string>
+
+    <string name="login.success">SignIn success.</string>
+    <string name="register.success">SignUp success.</string>
+
+    <!-- Intent -->
+    <string name="intent_key">intent_key</string>
+    <string name="intent_obj">intent_obj</string>
+    <string name="intent_add">intent_add</string>
+    <string name="intent_edit">intent_edit</string>
+    <string name="intent_delete">intent_delete</string>
+
+    <!-- Search Tag -->
+    <string name="tag.job">job</string>
+    <string name="tag.categoryjob">categoryjob</string>
+    <string name="tag.province">province</string>
+    <string name="tag.district">district</string>
+
+    <!-- Salary Range -->
+    <string-array name="salary">
+        <item>negotiable</item>
+        <item>10,000-20,000</item>
+        <item>20,000-30,000</item>
+        <item>30,000-40,000</item>
+        <item>40,000-50,000</item>
+        <item>50,000-60,000</item>
+    </string-array>
+
+    <!-- Validation Message -->
+    <string name="validation.empty">This field is required</string>
+    <string name="validation.email">Invalid email</string>
+    <string name="validation.password">Invalid password</string>
+    <string name="validation.password.confirm">Are you sure confirm password?</string>
+    <string name="validation.number">This field is a number</string>
+    <string name="validation.age">Age between 7 - 60</string>
+    <string name="validation.phone">This No.Phone must not start 00, 01</string>
+    <string name="validation.length.10">This field are length between 9-10 digits</string>
+
+    <!-- AlertDialog NearBy Message -->
+    <string name="dialog.nearby.title">Input Kilometer Number</string>
+    <string name="dialog.nearby.btn.positive">OK</string>
+
+    <!-- AlertDialog Validate Message -->
+    <string name="dialog.validation.title">Warning Input</string>
+    <string name="dialog.validation.btn.positive">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_search_detail">Search Detail</string>
+    <string name="title_activity_serach_result">Search Result</string>
+    <string name="title_activity_account_manage">Account Manage</string>
+    <string name="title_activity_job_detail">JobDetail</string>
+    <string name="title_activity_resume_manage">Resume</string>
+    <string name="title_activity_resumejob">Resume Jobs</string>
+    <string name="title_activity_selected_jobs_of_resume">SelectedJobs</string>
+    <string name="title_activity_send_resume">Send Resume</string>
+
+    <string name="title_fragment_home">Home</string>
+    <string name="title_fragment_feed">Feed</string>
+    <string name="title_fragment_near">Near</string>
+    <string name="title_fragment_suggest">Suggest</string>
+    <string name="title_fragment_account">Account</string>
+    <string name="title_fragment_profile">Profile</string>
+    <string name="title_fragment_favorite">Favorite</string>
+    <string name="title_fragment_history">History</string>
+    <string name="title_fragment_resume">Resumes</string>
+
+</resources>

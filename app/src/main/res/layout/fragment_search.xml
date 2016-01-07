@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_content_center_TopAndBottom"
+    android:paddingLeft="@dimen/activity_content_center_leftAndRight"
+    android:paddingRight="@dimen/activity_content_center_leftAndRight"
+    android:paddingTop="@dimen/activity_content_center_TopAndBottom"
+    tools:context="com.weeravit_it.findjob.findjob.fragment.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space.white"
+            app:theme="@style/TextInput.Custom.Normal">
+
+            <EditText
+                android:id="@+id/editTextNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/search.notice" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_work_black_48dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space.white"
+            app:theme="@style/TextInput.Custom.Normal">
+
+            <EditText
+                android:id="@+id/editTextJobAndJobCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/job"
+                android:longClickable="false" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_on_black_48dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space.white"
+            app:theme="@style/TextInput.Custom.Normal">
+
+            <EditText
+                android:id="@+id/editTextDistrictAndProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/place"
+                android:longClickable="false" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fa_money_black_48dp" />
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space.white"
+            app:ms_arrowColor="@color/black"
+            app:ms_arrowSize="16dp"
+            app:ms_baseColor="@color/black"
+            app:ms_floatingLabelColor="@color/teal_500"
+            app:ms_floatingLabelText="@string/salary"
+            app:ms_highlightColor="@color/black"
+            app:ms_hint="@string/salary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOK"
+            android:background="@drawable/btn_blue"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button.height"
+            android:text="@string/search" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_primary_dark">#1976D2</color>
+    <color name="blue_primary">#2196F3</color>
+    <color name="blue_a200">#6889ff</color>
+    <color name="blue_500">#5677fc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#212121</color>
+    <color name="black_soft">#222222</color>
+    <color name="gray">#727272</color>
+    <color name="gray_dark">#616161</color>
+    <color name="gray_light">#CFD8DC</color>
+    <color name="gray_soft">#B6B6B6</color>
+    <color name="teal_500">#009688</color>
+    <color name="red_a200">#ff5177</color>
+    <color name="red_500">#e51c23</color>
+    <color name="pink_500">#e91e63</color>
+    <color name="pink_a200">#ff4081</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="deep_purple_500">#673ab7</color>
+    <color name="deep_purple_a200">#7c4dff</color>
+
+    <color name="teal_50">#E0F2F1</color>
+    <color name="indigo_50">#E8EAF6</color>
+    <color name="deep_purple_50">#EDE7F6</color>
+    <color name="lime_50">#F9FBE7</color>
+
+    <color name="translucent_scrim_top">#26000000</color>
+    <color name="translucent_scrim_top_center">#0C000000</color>
+    <color name="translucent_scrim_bottom">#2A000000</color>
+    <color name="translucent_scrim_bottom_center">#0D000000</color>
+</resources>

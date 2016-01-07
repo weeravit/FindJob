@@ -1,0 +1,206 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.weeravit_it.findjob.findjob.fragment.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider"
+        android:showDividers="middle"
+        android:orientation="vertical">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            app:mrl_rippleColor="@color/gray_soft"
+            app:mrl_rippleDelayClick="false">
+
+            <LinearLayout
+                android:id="@+id/layoutProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/profile.icon"
+                    android:layout_height="@dimen/profile.icon"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_findjob"
+                    app:border_color="@color/deep_purple_a200"
+                    app:border_width="1dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvFullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="@dimen/space.white.big"
+                        android:layout_weight="1"
+                        android:text="Fullname"
+                        android:textSize="@dimen/text.normalSize" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="@dimen/space.white.big"
+                        android:layout_weight="1"
+                        android:text="@string/account.user.detail"
+                        android:textColor="@color/gray_soft"
+                        android:textSize="@dimen/text.normalSize" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            app:mrl_rippleColor="@color/gray_soft"
+            app:mrl_rippleDelayClick="false">
+
+            <LinearLayout
+                android:id="@+id/layoutFavorite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/profile.icon"
+                    android:layout_height="@dimen/profile.icon"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_favorite_pink_48dp"
+                    app:border_color="@color/pink_500"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/space.white.big"
+                    android:text="@string/account.favorite"
+                    android:textSize="@dimen/text.normalSize" />
+
+            </LinearLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            app:mrl_rippleColor="@color/gray_soft"
+            app:mrl_rippleDelayClick="false">
+
+            <LinearLayout
+                android:id="@+id/layoutHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/profile.icon"
+                    android:layout_height="@dimen/profile.icon"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_history_teal_48dp"
+                    app:border_color="@color/teal_500"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/space.white.big"
+                    android:text="@string/account.history"
+                    android:textSize="@dimen/text.normalSize" />
+
+            </LinearLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            app:mrl_rippleColor="@color/gray_soft"
+            app:mrl_rippleDelayClick="false">
+
+            <LinearLayout
+                android:id="@+id/layoutResume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/profile.icon"
+                    android:layout_height="@dimen/profile.icon"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_resume_indigo_48dp"
+                    app:border_color="@color/indigo_500"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/space.white.big"
+                    android:text="@string/account.resume"
+                    android:textSize="@dimen/text.normalSize" />
+
+            </LinearLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            app:mrl_rippleColor="@color/gray_soft"
+            app:mrl_rippleDelayClick="false">
+
+            <LinearLayout
+                android:id="@+id/layoutLogout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/profile.icon"
+                    android:layout_height="@dimen/profile.icon"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_logout_red_48dp"
+                    app:border_color="@color/red_500"
+                    app:border_width="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/space.white.big"
+                    android:text="@string/account.logout"
+                    android:textSize="@dimen/text.normalSize" />
+
+            </LinearLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+    </LinearLayout>
+
+</ScrollView>
