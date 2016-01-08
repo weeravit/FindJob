@@ -8,7 +8,10 @@
 - API min 15 and target 23
 - Internet Connection :)
 
-## 3rd party lib
+## Demo
+<img src="https://raw.githubusercontent.com/weeravit/MyStories/master/MyStoriesApp.gif"/>
+
+## Thank for 3rd party lib
 ### UI
 - <a href="http://developer.android.com/tools/support-library/features.html#design">Android Design Support Library</a>
 - <a href="https://github.com/balysv/material-ripple">Material Ripple Layout</a>
@@ -25,5 +28,3 @@
 - <a href="https://github.com/square/retrofit">Retrofit (HTTP Client with Restful)</a>
 - <a href="https://github.com/bumptech/glide">Glide (Image Cache)</a>
 
-## Demo
-<img src="https://raw.githubusercontent.com/weeravit/MyStories/master/MyStoriesApp.gif"/>
