@@ -9,7 +9,7 @@
 - Internet Connection :)
 
 ## Demo
-<img src="https://raw.githubusercontent.com/weeravit/MyStories/master/MyStoriesApp.gif"/>
+<img src="https://github.com/weeravit/FindJob/raw/master/demo.gif"/>
 
 ## Thank for 3rd party lib
 ### UI
