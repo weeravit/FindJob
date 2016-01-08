@@ -13,6 +13,7 @@
 - <a href="https://github.com/cymcsg/UltimateRecyclerView">UltimateRecyclerView</a>
 - <a href="https://github.com/jpardogo/PagerSlidingTabStrip">Pager Sliding TabStrip</a>
 - <a href="https://github.com/JoanZapata/android-iconify">Android Iconify</a>
+
 ### Utils
 - <a href="https://github.com/beworker/tinybus">TinyBus (EventBus)</a>
 - <a href="https://github.com/mrmans0n/smart-location-lib">Smart Location (Detect Location)</a>
