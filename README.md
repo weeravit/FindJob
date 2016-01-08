@@ -6,7 +6,7 @@
 
 ## Project requires
 - API min 15 and target 23
-- Internet Connection :)
+- Internet Connection with Web-service :)
 
 ## Demo
 <img src="https://github.com/weeravit/FindJob/raw/master/demo.gif"/>
